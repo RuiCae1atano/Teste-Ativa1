@@ -1,0 +1,9 @@
+C:\Users\rui.batalha\source\repos\TesteATV\Investimento.Core\bin\Debug\netcoreapp2.0\Investimento.Core.deps.json
+C:\Users\rui.batalha\source\repos\TesteATV\Investimento.Core\bin\Debug\netcoreapp2.0\Investimento.Core.dll
+C:\Users\rui.batalha\source\repos\TesteATV\Investimento.Core\bin\Debug\netcoreapp2.0\Investimento.Core.pdb
+C:\Users\rui.batalha\source\repos\TesteATV\Investimento.Core\obj\Debug\netcoreapp2.0\Investimento.Core.csprojAssemblyReference.cache
+C:\Users\rui.batalha\source\repos\TesteATV\Investimento.Core\obj\Debug\netcoreapp2.0\Investimento.Core.csproj.CoreCompileInputs.cache
+C:\Users\rui.batalha\source\repos\TesteATV\Investimento.Core\obj\Debug\netcoreapp2.0\Investimento.Core.AssemblyInfoInputs.cache
+C:\Users\rui.batalha\source\repos\TesteATV\Investimento.Core\obj\Debug\netcoreapp2.0\Investimento.Core.AssemblyInfo.cs
+C:\Users\rui.batalha\source\repos\TesteATV\Investimento.Core\obj\Debug\netcoreapp2.0\Investimento.Core.dll
+C:\Users\rui.batalha\source\repos\TesteATV\Investimento.Core\obj\Debug\netcoreapp2.0\Investimento.Core.pdb

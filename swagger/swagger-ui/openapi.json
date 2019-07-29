@@ -1,0 +1,151 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Ativa Ts",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/aplicacao": {
+      "put": {
+        "responses": {
+          "200": {
+            "description": "Listagem de todos os fundos",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "example": "691ec725-5647-4050-b939-84ab09c90bc2"
+                      },
+                      "idFundos": {
+                        "type": "string",
+                        "example": "691ec725-5647-4050-b939-84ab09c90bc2"
+                      },
+                      "nome": {
+                        "type": "string",
+                        "example": "Hugo Coelho"
+                      },
+                      "vlMovimentacao": {
+                        "type": "number",
+                        "example": 2500
+                      },
+                      "cpf": {
+                        "type": "string",
+                        "example": "893.611.220-02"
+                      },
+                      "tipomovimentacao": {
+                        "type": "integer",
+                        "example": "893.611.220-02"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/resgate": {
+      "put": {
+        "responses": {
+          "200": {
+            "description": "Listagem de todos os fundos",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "example": "691ec725-5647-4050-b939-84ab09c90bc2"
+                      },
+                      "idFundos": {
+                        "type": "string",
+                        "example": "691ec725-5647-4050-b939-84ab09c90bc2"
+                      },
+                      "nome": {
+                        "type": "string",
+                        "example": "Hugo Coelho"
+                      },
+                      "vlMovimentacao": {
+                        "type": "number",
+                        "example": 2500
+                      },
+                      "cpf": {
+                        "type": "string",
+                        "example": "893.611.220-02"
+                      },
+                      "tipomovimentacao": {
+                        "type": "integer",
+                        "example": "893.611.220-02"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getbyname/{nome}": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "nome",
+            "description": "Nome para retornar, a movimentacação especifica",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "Hugo Coelho"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Listagem de Movimentacao por nome",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "example": "691ec725-5647-4050-b939-84ab09c90bc2"
+                    },
+                    "idFundos": {
+                      "type": "string",
+                      "example": "691ec725-5647-4050-b939-84ab09c90bc2"
+                    },
+                    "nome": {
+                      "type": "string",
+                      "example": "Hugo Coelho"
+                    },
+                    "vlMovimentacao": {
+                      "type": "number",
+                      "example": 2500
+                    },
+                    "cpf": {
+                      "type": "string",
+                      "example": "893.611.220-02"
+                    },
+                    "tipomovimentacao": {
+                      "type": "integer",
+                      "example": "893.611.220-02"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

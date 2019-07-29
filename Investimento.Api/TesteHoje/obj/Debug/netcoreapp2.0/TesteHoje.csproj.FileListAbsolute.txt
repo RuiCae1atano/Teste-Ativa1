@@ -1,0 +1,4 @@
+C:\Users\rui.batalha\source\repos\TesteATV\TesteHoje\obj\Debug\netcoreapp2.0\TesteHoje.csprojAssemblyReference.cache
+C:\Users\rui.batalha\source\repos\TesteATV\TesteHoje\obj\Debug\netcoreapp2.0\TesteHoje.csproj.CoreCompileInputs.cache
+C:\Users\rui.batalha\source\repos\TesteATV\TesteHoje\obj\Debug\netcoreapp2.0\TesteHoje.AssemblyInfoInputs.cache
+C:\Users\rui.batalha\source\repos\TesteATV\TesteHoje\obj\Debug\netcoreapp2.0\TesteHoje.AssemblyInfo.cs
